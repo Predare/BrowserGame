@@ -1,0 +1,10 @@
+.menu-buttons {
+    margin-bottom: 70px;
+    width: 584px;
+}
+
+@media (max-width: 620px) {
+    .menu-buttons {
+        width: 95%;
+    }
+}

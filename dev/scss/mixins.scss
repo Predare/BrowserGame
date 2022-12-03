@@ -1,0 +1,26 @@
+@import "variables";
+
+
+@mixin blured_shape($color, $blur, $rotate){
+    background: $color;
+    filter:blur($blur);
+    transform: rotate($rotate);
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content
+    }
+
+    &:-moz-placeholder {
+        @content
+    }
+
+    &::-moz-placeholder {
+        @content
+    }
+
+    &:-ms-input-placeholder {
+        @content
+    }
+}

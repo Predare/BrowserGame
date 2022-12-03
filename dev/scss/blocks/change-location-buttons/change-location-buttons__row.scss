@@ -1,0 +1,14 @@
+.change-location-buttons__row {
+    display: flex;
+    gap: 16px;
+
+    &:not(:last-child) {
+        margin-bottom: 17px;
+    }
+}
+
+@media (max-width: 620px) {
+    .change-location-buttons__row {
+        flex-direction: column;
+    }
+}

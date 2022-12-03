@@ -1,0 +1,20 @@
+.menu-buttons__button {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #484848;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    padding: 17px 0px;
+    width: 100%;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #000000;
+    }
+}

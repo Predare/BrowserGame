@@ -1,0 +1,36 @@
+// Using
+//.div {
+//   @include media_xl {
+//       @content;
+//   }
+//}
+//media_mixin.scss
+
+@mixin media_xxl {
+    @media (max-width: 1425px) {
+        @content;
+    }
+}
+
+@mixin media_xl {
+    @media (max-width: 1230px) {
+        @content;
+    }
+}
+
+@mixin media_l {
+    @media (max-width: 1000px) {
+        @content;
+    }
+}
+@mixin media_m {
+    @media (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin media_sm {
+    @media (max-width: 480px) {
+        @content;
+    }
+}

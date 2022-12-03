@@ -1,0 +1,18 @@
+.enemy-list__column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+@media (max-width: 670px) {
+    .enemy-list__column {
+        justify-content: start;
+
+        &:last-child {
+            display: none;
+        }
+    }
+
+   
+}

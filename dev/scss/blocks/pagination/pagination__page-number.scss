@@ -1,0 +1,22 @@
+.pagination__page-number {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+
+    &:hover {
+        color: #FF3544;
+    }
+
+    &:not(:nth-child(5)){
+        margin-right: 18px;
+    }
+}

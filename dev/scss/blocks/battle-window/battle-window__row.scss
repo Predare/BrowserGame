@@ -1,0 +1,15 @@
+.battle-window__row {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 610px) {
+    .battle-window__row {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}

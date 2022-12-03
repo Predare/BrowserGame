@@ -1,0 +1,38 @@
+@import "../../utils/media";
+.online-players-placeholder {
+    margin: 0px 5vw;
+    margin-bottom: 19px;
+    background: linear-gradient(90.54deg, rgba(255, 53, 68, 0) 62.72%, rgba(255, 53, 68, 0.3) 106.41%), #000000;
+    border: 1px solid #FF3544;
+    border-radius: 4px;
+    padding: 12px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+
+    span {
+        font-family: 'Ubuntu Mono', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.3px;
+        color: #FF3544
+    }
+}
+
+@include media_m {
+    .online-players-placeholder {
+        
+        margin: 0px 2vw;
+        margin-bottom: 19px;
+    }
+}
+
+@media (max-width: 378px) {
+    .online-players-placeholder {
+        font-size: 11px;
+    }
+}

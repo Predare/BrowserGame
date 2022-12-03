@@ -1,0 +1,20 @@
+.enemy-card__info__attack-button {
+    cursor: pointer;
+    border: 0.922414px solid rgba(255, 53, 68, 0.8);
+    border-radius: 3.21162px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.922414px;
+    text-transform: uppercase;
+    color: #FF3544;
+    background-color: transparent;
+
+    &:hover {
+        background: #FF3544;
+        color: #FFFFFF;
+    }
+}

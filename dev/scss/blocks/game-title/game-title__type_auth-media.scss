@@ -1,0 +1,9 @@
+@import "../../utils/media";
+@include media_sm {
+    .game-title__type_auth-media {
+        margin-right: 0px;
+        width: 140px;
+        font-size: 14px;
+        padding: 11px 5px;
+    }
+}

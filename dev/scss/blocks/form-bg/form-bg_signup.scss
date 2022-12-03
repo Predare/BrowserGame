@@ -1,0 +1,16 @@
+.form-bg_signup {
+    margin-bottom: 5vh;
+    padding: 6vh 0px 6vh 0px;
+}
+
+@media (max-width: 1485px) {
+    .form-bg_signup {
+        max-width: 90vw;
+    }
+}
+
+@media (max-height: 766px) {
+    .form-bg_signup {
+        margin-bottom: 40px;
+    }
+}

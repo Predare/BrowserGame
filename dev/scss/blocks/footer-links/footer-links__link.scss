@@ -1,0 +1,19 @@
+.footer-links__link {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #AAAAAA;
+        text-decoration-line: none;
+
+        &:hover {
+            font-weight: 600;
+            text-decoration-line: underline;
+            color: rgba(170, 170, 170, 0.8);
+        }
+
+        &:not(:last-child) {
+            margin-right: 54px;
+        }
+}

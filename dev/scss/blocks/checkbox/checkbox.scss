@@ -1,0 +1,14 @@
+@import "../../components/checkbox";
+.checkbox {
+    @include checkbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}

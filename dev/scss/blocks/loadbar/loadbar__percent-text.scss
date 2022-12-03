@@ -1,0 +1,22 @@
+.loadbar__percent-text {
+    display: flex;
+    position: relative;
+    bottom: 9px;
+    left: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    color: #141416;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.3);
+}
+
+@media (max-width: 420px) {
+    .loadbar__percent-text {
+        bottom: 10px;
+    }
+}

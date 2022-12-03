@@ -1,0 +1,1 @@
+.menu-buttons__row{display:flex;gap:19px}.menu-buttons__row:not(:last-child){margin-bottom:15px}@media(max-width: 620px){.menu-buttons__row{flex-direction:column}}/*# sourceMappingURL=menu-buttons__row.css.map */

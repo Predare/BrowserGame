@@ -1,0 +1,7 @@
+@import "../../utils/media";
+
+@include media_sm {
+    .game-title__name_auth-media {
+        font-size: 30px;
+    }
+}

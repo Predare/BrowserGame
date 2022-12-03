@@ -1,0 +1,25 @@
+.modal-enemy-info__name {
+    display: flex;
+    align-items: center;
+    padding: 6px 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    gap: 5px;
+
+    h1 {
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.922414px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 670px) {
+    .modal-enemy-info__name {
+        width: fit-content;
+    }
+}

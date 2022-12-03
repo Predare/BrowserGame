@@ -1,0 +1,20 @@
+.secondary-button {
+    border: 1px solid #FF3544;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FF3544;
+    cursor: pointer;
+
+    &:hover {
+        background: #FF3544;
+        color: #000000;
+    }
+}

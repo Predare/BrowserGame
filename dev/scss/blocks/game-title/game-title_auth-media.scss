@@ -1,0 +1,7 @@
+@import "../../utils/media";
+@include media_sm {
+    .game-title_auth-media {
+        flex-direction: column;
+        align-items: center;
+    }
+}

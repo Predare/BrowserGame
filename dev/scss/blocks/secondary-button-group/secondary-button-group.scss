@@ -1,0 +1,11 @@
+.secondary-button-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+
+    & > button {
+        &:not(:first-child) {
+            margin-top: 9px;
+        }
+    }
+}

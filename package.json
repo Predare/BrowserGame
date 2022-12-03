@@ -1,0 +1,25 @@
+{
+    "scripts": {
+        "build": "npm run css",
+        "css-compile": "sass --load-path=node_modules --style=compressed dev/scss:dev/css",
+        "css-lint": "stylelint dev/sass/",
+        "css-prefix": "postcss dev/css/**/*.css --base dev/css --dir dist/css --use autoprefixer --map",
+        "css": "npm-run-all css-compile css-prefix",
+        "server": "live-server --port=3000",
+        "start": "npm-run-all --parallel css server",
+        "watch": "sass --watch --load-path=node_modules dev/scss:dist/css",
+        "test": "npm run css-lint && npm run css"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.13",
+        "bootstrap": "^5.2.3",
+        "postcss": "^8.4.18",
+        "postcss-cli": "^10.0.0",
+        "stylelint": "^14.14.1"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.56.0"
+    }
+}
