@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pages/signup_1.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="main-content-container main-content-container_signup">
+        <div class="main-content-container__center-aligner">
+            <div class="form-bg form-bg_signup">
+                <h1 class="signup-headline">Регистрация</h1>
+                <div class="text-inputs-column">
+                    <div class="text-input text-input_name-margin">
+                        <div class="text-input__header">
+                            <label class="text-input__label" for="nickname">Ник <span>*</span></label>
+                        </div>
+                        <input class="text-input__input text-input__input_check" type="text" id="nickname" name="nickname"
+                               placeholder="Твое имя, которое буду видеть другие пользователи" value="Максим" />
+                    </div>
+                    <div class="text-input text-input_name-margin">
+                        <div class="text-input__header">
+                            <label class="text-input__label text-input__label_red" for="email">Почта <span>*</span></label>
+                            <p class="text-input__error-text">Заполните поле</p>
+                        </div>
+                        <input class="text-input__input" type="email" id="email" name="email" />
+                    </div>
+                    <div class="text-input text-input_name-margin">
+                        <div class="text-input__header">
+                            <label class="text-input__label text-input__label_red" for="password">Пароль <span>*</span></label>
+                            <p class="text-input__error-text">Неверный пароль</p>
+                        </div>
+                        <input class="text-input__input" type="text" id="password" name="password" value="467299првры" />
+                    </div>
+                    <div class="text-input text-input_next-margin">
+                        <div class="text-input__header">
+                            <label class="text-input__label" for="approve_password">Подтверждения пароля <span>*</span></label>
+
+                        </div>
+                        <input class="text-input__input" type="text" id="approve_password" name="approve_password" />
+                    </div>
+                </div>
+                <button class="primary-button primary-button_auth-sizes primary-button_next-margin">Далее</button>
+            </div>
+            <h2 class="have-account-headline">уже есть аккаунт?</h2>
+            <button class="secondary-button secondary-button_auth-sizes secondary-button_footer-margin">войти</button>
+        </div>
+        <footer class="footer-links">
+            <a class="footer-links__link" href="/">Помощь</a>
+            <a class="footer-links__link" href="/">Форум</a>
+            <a class="footer-links__link" href="/">Жалоба</a>
+        </footer>
+    </div>
+</body>
+</html>

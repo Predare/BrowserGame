@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pages/auth.css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <div class="main-content-container">
+        <div class="form-bg form-bg_index">
+            <div class="game-title game-title_auth-media">
+                <h2 class="game-title__type game-title__type_auth-media">Онлайн-игра</h2>
+                <h1 class="game-title__name game-title__name_auth-media">Ванхельм</h1>
+            </div>
+            <img class="game-poster-image game-poster-image_auth-margin" src="../img/png/samurai.png" />
+            <h2 class="online-players-placeholder">Сейчас в игре <span>117</span> человек, всего 4567</h2>
+            <div class="text-inputs-column">
+                <div class="text-input text-input_name-margin">
+                    <div class="text-input__header">
+                        <label class="text-input__label" for="nickname">Ник <span>*</span></label>
+                    </div>
+                    <input class="text-input__input" type="text" id="nickname" name="nickname"
+                           placeholder="Твое имя, которое буду видеть другие пользователи" />
+                </div>
+                <div class="text-input text-input_password-margin">
+                    <div class="text-input__header">
+                        <label class="text-input__label" for="password">Пароль <span>*</span></label>
+                    </div>
+                    <input class="text-input__input" type="text" id="password" name="password"/>
+                </div>
+                <label for="remember_me" class="checkbox checkbox_remember-me-margin">
+                    Запомнить меня
+                    <input type="checkbox" id="remember_me" name="remember_me">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <button class="primary-button primary-button_auth-sizes">Войти в игру</button>
+        </div>
+        <div class="secondary-button-group">
+            <button class="secondary-button secondary-button_auth-sizes">регистрация</button>
+            <button class="secondary-button secondary-button_auth-sizes">забыли пароль?</button>
+            <button class="secondary-button secondary-button_auth-sizes">Об игре</button>
+        </div>
+        <footer class="footer-links">
+            <a class="footer-links__link" href="/">Помощь</a>
+            <a class="footer-links__link" href="/">Форум</a>
+            <a class="footer-links__link" href="/">Жалоба</a>
+        </footer>
+        </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pages/signup_2.css">
+    <!-- Подключаем JavaScript файл CustomSelect -->
+    <script defer src="../../dist/css/blocks/custom-select/itc-custom-select.js"></script>
+    <script defer src="../../dist/css/blocks/custom-select/signup-select-inits.js"></script>
+    <title>Регистрация</title>
+
+</head>
+<body>
+    <div class="main-content-container main-content-container_signup">
+        <div class="main-content-container__center-aligner">
+            <div class="form-bg form-bg_signup">
+                <h1 class="signup-headline">Регистрация</h1>
+                <div class="select-column">
+                    <!--Custom-select init file: signup-select-inits.js-->
+                    <!-- Кастомный селект #select-race -->
+                    <h5 class="itc-select__title">Раса<span>*</span></h5>
+                    <div class="itc-select" id="select-race" data-icon="../img/svg/pazzle.svg">
+                        <button type="button" class="itc-select__toggle" name="numbers" value="two" data-select="toggle" data-index="1">
+                            <div class="itc-select__toggle__content">
+                                <img class="select-icon" src="../img/svg/pazzle.svg" alt="race icon" /> Выбрать
+                            </div>
+                        </button>
+                        <div class="itc-select__dropdown">
+                            <ul class="itc-select__options">
+                                <li class="itc-select__option" data-select="option" data-value="негроидная" data-index="0">
+                                    Негроидная
+                                </li>
+                                <li class="itc-select__option itc-select__option_selected" data-select="option" data-value="европеоидная" data-index="1">
+                                    Европеоидная
+                                </li>
+                                <li class="itc-select__option" data-select="option" data-value="монголоидная" data-index="2">
+                                    Монголоидная
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Кастомный селект #select-class -->
+                    <h5 class="itc-select__title">Класс<span>*</span></h5>
+                    <div class="itc-select" id="select-class" data-icon="../img/svg/pyramid.svg">
+                        <button type="button" class="itc-select__toggle" name="numbers" value="two" data-select="toggle" data-index="1">
+                            <div class="itc-select__toggle__content">
+                                <img class="select-icon" src="../img/svg/pyramid.svg" alt="race icon" /> Выбрать
+                            </div>
+                        </button>
+                        <div class="itc-select__dropdown">
+                            <ul class="itc-select__options">
+                                <li class="itc-select__option" data-select="option" data-value="Название класса" data-index="0">
+                                    Название класса
+                                </li>
+                                <li class="itc-select__option itc-select__option_selected" data-select="option" data-value="Название класса" data-index="1">
+                                    Название класса
+                                </li>
+                                <li class="itc-select__option" data-select="option" data-value="Название класса" data-index="2">
+                                    Название класса
+                                </li>
+                                <li class="itc-select__option" data-select="option" data-value="Название класса" data-index="2">
+                                    Название класса
+                                </li>
+                                <li class="itc-select__option" data-select="option" data-value="Название класса" data-index="2">
+                                    Название класса
+                                </li>
+                                <li class="itc-select__option" data-select="option" data-value="Название класса" data-index="2">
+                                    Название класса
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Кастомный селект #select-gender -->
+                    <h5 class="itc-select__title">Пол<span>*</span></h5>
+                    <div class="itc-select" id="select-gender" data-icon="../img/svg/gender.svg">
+                        <button type="button" class="itc-select__toggle" name="numbers" value="two" data-select="toggle" data-index="1">
+                            <div class="itc-select__toggle__content">
+                                <img class="select-icon" src="../img/svg/gender.svg" alt="race icon" /> Выбрать
+                            </div>
+                        </button>
+                        <div class="itc-select__dropdown">
+                            <ul class="itc-select__options">
+                                <li class="itc-select__option" data-select="option" data-value="Мужской" data-index="0">
+                                    Мужской
+                                </li>
+                                <li class="itc-select__option itc-select__option_selected" data-select="option" data-value="Женский" data-index="1">
+                                    Женский
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="primary-button primary-button_signup-sizes primary-button_next-margin">зарегистрироваться</button>
+            </div>
+
+            <h2 class="have-account-headline">уже есть аккаунт?</h2>
+            <button class="secondary-button secondary-button_auth-sizes secondary-button_footer-margin">войти</button>
+        </div>
+
+        <footer class="footer-links">
+            <a class="footer-links__link" href="/">Помощь</a>
+            <a class="footer-links__link" href="/">Форум</a>
+            <a class="footer-links__link" href="/">Жалоба</a>
+        </footer>
+    </div>
+</body>
+</html>
